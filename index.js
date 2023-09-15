@@ -51,24 +51,24 @@ let user = {
     age: 44,
     isAdmin: true        
   };
-  alert(user .name);
-  alert(user .age);
-  alert(user .isAdmin);
+  alert(user.name);
+  alert(user.age);
+  alert(user.isAdmin);
 
 //Задание 9.1
 user["city of residence"] = true;
 alert(["city of residence"]);
 
 //Задание 9.2
-user .age = 18;
-alert(user .age);
+user.age = 18;
+alert(user.age);
 
 //Задание 9.3
 delete user["city of residence"];
 
 //Задание 9.4
 let info = prompt("Какую информацию хотите узнать о пользователе?");
-alert(info);
+alert(user[info]);
 
 //Задание 10
 user = prompt("Как ваше имя?");
