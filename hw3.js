@@ -22,7 +22,7 @@ if (c > 0 && c < 10) {alert('Верно');
 //Задание 3
 
 let d = Number(prompt('Введите число'));
-let e = Number(prompt('Введите число ещё одно число'));
+let e = Number(prompt('Введите ещё одно число'));
 
 if (d > 100 || e > 100) {alert('Верно');
     
@@ -84,5 +84,35 @@ switch (monthNumber) {
         break;
 }
 
+//Задание 7
 
+let n = Number(prompt('«Пожалуйста, введите любое число»'));
+
+(n % 2 === 0) ? console.log('Число чётное') : console.log('Число нечётное');
+
+//Задание 8
+
+let clientOS;
+
+if (clientOS == 0) {console.log('Установите версию приложения для iOS по ссылке');
+    
+} else if (clientOS == 1) {
+    console.log('Установите версию приложения для Android по ссылке»');
+} else console.log('Установите версию для компьютера');
+
+//Задание 9
+
+let year;
+
+if (clientOS == 0 && year < 2015) {console.log('Установите облегченную версию приложения для iOS по ссылке')
+    
+} else if (clientOS == 0 && year > 2015) {
+    console.log('Установите версию приложения для iOS по ссылке»');
+}
+
+if (clientOS == 1 && year < 2015) {console.log('Установите облегченную версию приложения для Android по ссылке')
+    
+} else if (clientOS == 1 && year > 2015) {
+    console.log('Установите версию приложения для Android по ссылке»');
+}  
 
